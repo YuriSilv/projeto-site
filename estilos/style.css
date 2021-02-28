@@ -1,17 +1,24 @@
 * {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 body
 {
-    background-color: rgb(212, 216, 216);
+    background-color: #d0e8f2;
 }
+
+
+h1,h2,h3,p
+{
+    color: #456268;
+}
+
 
 main
 {
-    background-color: white;
-    width: 500px;
+    background-color: #fcf8ec   ;
+    width: 600px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px black;
