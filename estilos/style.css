@@ -7,24 +7,43 @@ body
     background-color: #D4DCFF;
 }
 
-
-h1,h2,h3,p
+header
 {
-    color: #3587A4;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFCF56;
+    box-shadow: 0px 5px 0 black;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav
+{
+    text-align: center;
 }
 
 a
 {
+    display: inline-block;
+    color: #3587A4;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 500;
-    color: #3587A4;
     font-size: 22px;
     text-decoration: none;
-    margin-right: 120px;
+    padding: 6px 8px;
+    margin-left: 50px;
+    margin-right: 160px;
+    margin-top: 28px;
+    transition: transform 100ms linear;
 }
 
-header
+a:hover
 {
- background-color: #FFCF56;
- box-shadow: 0px 3px 0 black;
+    transform: scale(1.125);
+}
+
+h1,h2,h3,p
+{
+    color: #3587A4;
 }
