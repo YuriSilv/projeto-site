@@ -1,49 +1,43 @@
-* {
-    font-size: 20px;
+body{
+    background-color: #4caf50;
+    font-family: 'Open Sans', sans-serif;}
+
+section{
+    box-shadow: 3px 3px 4px;
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    background-color: rgb(243, 233, 233);
+    padding: 15px;
+    margin-top: 100px;
+    border: solid 1px black;
+    border-radius: 5px;
 }
 
-body
-{
-    background-color: #D4DCFF;
+div {
+    margin: 15px;
+    padding: 15px;
+    border: inherit;
+    background-color: rgb(226, 220, 212);
+    border-radius: inherit;
 }
 
-header
-{
-    display: flex;
-    justify-content: space-between;
-    background-color: #FFCF56;
-    box-shadow: 0px 5px 0 black;
-    height: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+header{
+    background-image: url("https://videohive.img.customer.envatousercontent.com/files/162036386/Plexus%20Hi-Tech%20Data%20Connections.png?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=b5ebea766fa2f7d76dbdd1f680b5024e");
+    background-size: cover;
+    height: 80px;
+    border-radius: inherit;
 }
 
-nav
-{
+img{
+    margin: auto;
+    display: block;
+    width: 150px;
+    border-radius: 100%;
+    transform: translateY(-60%);
+    border: solid 8px white;
+}
+
+h1{
     text-align: center;
-}
-
-a
-{
-    display: inline-block;
-    color: #3587A4;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 22px;
-    text-decoration: none;
-    padding: 6px 8px;
-    justify-content: space-between;
-    margin-left: 20px;
-    margin-top: 28px;
-    transition: transform 100ms linear;
-}
-
-a:hover
-{
-    transform: scale(1.125);
-}
-
-h1,h2,h3,p
-{
-    color: #3587A4;
 }
